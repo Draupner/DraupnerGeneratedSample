@@ -1,0 +1,44 @@
+2012-08-10 21:24:36,975 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+2012-08-10 21:24:36,975 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+2012-08-10 21:24:37,015 [5:ERROR] [NHibernate.Tool.hbm2ddl.SchemaUpdate.lambda_method] could not complete schema update
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.GenerateSchemaUpdateScript(Dialect dialect, DatabaseMetadata databaseMetadata)
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate)
+2012-08-10 21:24:37,015 [5:ERROR] [NHibernate.Tool.hbm2ddl.SchemaUpdate.lambda_method] could not complete schema update
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.GenerateSchemaUpdateScript(Dialect dialect, DatabaseMetadata databaseMetadata)
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate)
+2012-08-10 21:24:37,050 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+2012-08-10 21:24:37,050 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+2012-08-10 21:52:07,314 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2012-08-10 21:52:07,314 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2012-08-10 21:52:07,368 [5:ERROR] [NHibernate.Tool.hbm2ddl.SchemaUpdate.lambda_method] could not complete schema update
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.GenerateSchemaUpdateScript(Dialect dialect, DatabaseMetadata databaseMetadata)
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate)
+2012-08-10 21:52:07,368 [5:ERROR] [NHibernate.Tool.hbm2ddl.SchemaUpdate.lambda_method] could not complete schema update
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.GenerateSchemaUpdateScript(Dialect dialect, DatabaseMetadata databaseMetadata)
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate)
+2012-08-10 21:52:07,369 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2012-08-10 21:52:07,369 [5:ERROR] [NHibernate.Cfg.Configuration.lambda_method] An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+NHibernate.MappingException: An association from the table Book refers to an unmapped class: System.Collections.Generic.IEnumerable`1[[library.Core.Domain.Model.Author, library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]

@@ -1,0 +1,61 @@
+using library.Core.Common.Persistence;
+using library.Core.Common.Persistence.NHibernate;
+using NHibernate;
+
+namespace library.Core.Common.Transactions
+{
+    public abstract class TransactionRangeManager
+    {
+        protected abstract int Nested { get; set; }
+        protected abstract bool NestedHasNotCompleted { get; set; }
+
+        private readonly NHibernateUnitOfWork unitOfWork;
+        private ITransaction transaction;
+        private bool isComplete;
+
+        protected TransactionRangeManager(IUnitOfWork unitOfWork)
+        {
+            this.unitOfWork = (NHibernateUnitOfWork)unitOfWork;
+
+        }
+
+        public void Start()
+        {
+            isComplete = false;
+            Nested++;
+            if (Nested == 1)
+            {
+                NestedHasNotCompleted = false;
+                transaction = unitOfWork.Session.BeginTransaction();
+            }            
+        }
+
+        public void Complete()
+        {
+            isComplete = true;
+        }
+
+        public void Close()
+        {
+            Nested--;
+            if (Nested > 0)
+            {
+                if (!isComplete)
+                {
+                    NestedHasNotCompleted = true;
+                }
+
+                return;
+            }
+
+            if (isComplete && !NestedHasNotCompleted)
+            {
+                transaction.Commit();
+            }
+            else
+            {
+                transaction.Rollback();
+            }
+        }
+    }
+}

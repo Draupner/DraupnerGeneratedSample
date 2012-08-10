@@ -1,0 +1,55 @@
+using library.Core.Common.Persistence.NHibernate;
+using NHibernate;
+using Xunit;
+using Rhino.Mocks;
+
+namespace library.Test.Common.Persistence.NHibernate
+{
+    public class SharedNHibernateUnitOfWorkTests
+    {
+        private readonly MockRepository mocks;
+        private readonly ISessionFactory sessionFactoryMock;
+
+        public SharedNHibernateUnitOfWorkTests()
+        {
+            mocks = new MockRepository();
+            sessionFactoryMock = mocks.DynamicMock<ISessionFactory>();
+        }
+
+        [Fact]
+        public void ShouldGetCurrentSession()
+        {
+            var currentSession = mocks.DynamicMock<ISession>();
+            Expect.Call(sessionFactoryMock.GetCurrentSession()).Return(currentSession);
+
+            mocks.ReplayAll();
+            var sharedUnitOfWork = new SharedNHibernateUnitOfWork(sessionFactoryMock);
+            var session = sharedUnitOfWork.Session;
+            mocks.VerifyAll();
+
+            Assert.Equal(currentSession, session);
+        }
+
+        [Fact]
+        public void ShouldSaveChanges()
+        {
+            var currentSession = mocks.DynamicMock<ISession>();
+            Expect.Call(sessionFactoryMock.GetCurrentSession()).Return(currentSession);
+            Expect.Call(currentSession.Flush);
+
+            mocks.ReplayAll();
+            var sharedUnitOfWork = new SharedNHibernateUnitOfWork(sessionFactoryMock);
+            sharedUnitOfWork.SaveChanges();
+            mocks.VerifyAll();
+        }
+
+        [Fact]
+        public void ShouldDispose()
+        {
+            mocks.ReplayAll();
+            var sharedUnitOfWork = new SharedNHibernateUnitOfWork(sessionFactoryMock);
+            sharedUnitOfWork.Dispose();
+            mocks.VerifyAll();
+        }
+    }
+}
