@@ -6,7 +6,7 @@ using NHibernate;
 using NHibernate.Criterion;
 using NHibernate.Linq;
 
-namespace library.Core.Common.Persistence.NHibernate
+namespace Library.Core.Common.Persistence.NHibernate
 {
     public abstract class GenericNHibernateRepository<T> where T : class
     {

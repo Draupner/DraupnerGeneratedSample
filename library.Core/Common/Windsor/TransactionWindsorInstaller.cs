@@ -1,9 +1,9 @@
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using library.Core.Common.Transactions;
+using Library.Core.Common.Transactions;
 
-namespace library.Core.Common.Windsor
+namespace Library.Core.Common.Windsor
 {
     public class TransactionWindsorInstaller : IWindsorInstaller
     {

@@ -1,0 +1,17 @@
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Library.Core.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Library.Core.pdb
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Castle.Core.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Castle.Windsor.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\FluentNHibernate.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Iesi.Collections.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\log4net.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\NHibernate.dll
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Castle.Core.xml
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Castle.Windsor.xml
+C:\projects\draupnertest\library\Library.Core\bin\Debug\FluentNHibernate.xml
+C:\projects\draupnertest\library\Library.Core\bin\Debug\Iesi.Collections.xml
+C:\projects\draupnertest\library\Library.Core\bin\Debug\log4net.xml
+C:\projects\draupnertest\library\Library.Core\bin\Debug\NHibernate.xml
+C:\projects\draupnertest\library\Library.Core\obj\Debug\Library.Core.csprojResolveAssemblyReference.cache
+C:\projects\draupnertest\library\Library.Core\obj\Debug\Library.Core.dll
+C:\projects\draupnertest\library\Library.Core\obj\Debug\Library.Core.pdb

@@ -1,6 +1,6 @@
 using Castle.Windsor;
 
-namespace library.Core.Common.Windsor
+namespace Library.Core.Common.Windsor
 {
     public class Ioc
     {

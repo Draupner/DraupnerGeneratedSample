@@ -1,6 +1,6 @@
 using FluentNHibernate.Mapping;
 
-namespace library.Test.Common.Transaction
+namespace Library.Test.Common.Transaction
 {
     public class FooMap : ClassMap<Foo>
     {

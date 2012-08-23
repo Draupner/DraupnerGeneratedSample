@@ -1,10 +1,11 @@
+using System;
 using System.Web.Mvc;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using library.Web.Controllers;
+using Library.Web.Controllers;
 
-namespace library.Web.Common.Windsor
+namespace Library.Web.Common.Windsor
 {
     public class WebWindsorInstaller : IWindsorInstaller
     {
@@ -13,9 +14,9 @@ namespace library.Web.Common.Windsor
             container.Register(FindControllers().Configure(ConfigureControllers()));
         }
 
-        private static ConfigureDelegate ConfigureControllers()
+        private static Action<ComponentRegistration> ConfigureControllers()
         {
-            return c => c.LifeStyle.Transient;
+            return c => c.LifestyleTransient();
         }
 
         private static BasedOnDescriptor FindControllers()

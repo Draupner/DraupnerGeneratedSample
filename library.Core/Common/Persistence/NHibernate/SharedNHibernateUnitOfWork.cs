@@ -1,6 +1,6 @@
 using NHibernate;
 
-namespace library.Core.Common.Persistence.NHibernate
+namespace Library.Core.Common.Persistence.NHibernate
 {
     public class SharedNHibernateUnitOfWork : NHibernateUnitOfWork
     {

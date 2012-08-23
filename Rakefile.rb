@@ -6,20 +6,20 @@ desc "Build solution"
 msbuild :build do |msb|
   msb.properties :configuration => :Debug
   msb.targets :Clean, :Build
-  msb.solution = "library.sln"
+  msb.solution = "Library.sln"
 end
 
 desc "Clean solution"
 msbuild :clean do |msb|
   msb.properties :configuration => :Debug
   msb.targets :Clean
-  msb.solution = "library.sln"
+  msb.solution = "Library.sln"
 end
 
 desc "Tests"
 xunit :test => :build do |xunit|
 	xunit.command = "Tools/XUnit/xunit.console.clr4.x86.exe"
-	xunit.assembly = "library.Test/bin/Debug/library.Test.dll"
+	xunit.assembly = "Library.Test/bin/Debug/Library.Test.dll"
 end
 
 desc "Publish the web site"
@@ -31,5 +31,5 @@ msbuild :publish do |msb|
   :outdir => "../Publish/bin/"
   }
   
-  msb.solution = "library.Web/library.Web.csproj"
+  msb.solution = "Library.Web/Library.Web.csproj"
 end

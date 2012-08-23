@@ -1,9 +1,9 @@
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.Persistence.NHibernate;
 using NHibernate;
 using Xunit;
 using Rhino.Mocks;
 
-namespace library.Test.Common.Persistence.NHibernate
+namespace Library.Test.Common.Persistence.NHibernate
 {
     public class SingleNHibernateUnitOfWorkTests
     {

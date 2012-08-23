@@ -1,17 +1,17 @@
-using library.Web.Controllers;
-using library.Core.Domain.Repositories;
+using Library.Web.Controllers;
+using Library.Core.Domain.Repositories;
 using System.Web.Mvc;
-using library.Core.Common.Windsor;
-using library.Core.Common.NHibernate;
-using library.Core.Common.Persistence;
-using library.Web.Common.Windsor;
+using Library.Core.Common.Windsor;
+using Library.Core.Common.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Web.Common.Windsor;
 using Castle.Windsor;
 using NHibernate;
 using Xunit;
 using Rhino.Mocks;
 using System;
 
-namespace library.Test.Common.Windsor
+namespace Library.Test.Common.Windsor
 {
     public class WindsorConfigurationTests : IDisposable 
     {
@@ -49,8 +49,6 @@ namespace library.Test.Common.Windsor
             Assert.NotNull(container.Resolve<AuthorController>());
             Assert.NotNull(container.Resolve<ILibraryCardRepository>());
             Assert.NotNull(container.Resolve<LibraryCardController>());
-            Assert.NotNull(container.Resolve<IAuthorRepository>());
-            Assert.NotNull(container.Resolve<AuthorController>());
         }
 
 		public void Dispose()

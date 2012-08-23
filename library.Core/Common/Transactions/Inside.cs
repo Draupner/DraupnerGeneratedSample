@@ -1,10 +1,10 @@
 using System;
-using library.Core.Common.NHibernate;
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
 using NHibernate;
 
-namespace library.Core.Common.Transactions
+namespace Library.Core.Common.Transactions
 {
     public static class Inside
     {

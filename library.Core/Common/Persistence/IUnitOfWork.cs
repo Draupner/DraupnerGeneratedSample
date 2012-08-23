@@ -1,6 +1,6 @@
 using System;
 
-namespace library.Core.Common.Persistence
+namespace Library.Core.Common.Persistence
 {
     public interface IUnitOfWork : IDisposable
     {

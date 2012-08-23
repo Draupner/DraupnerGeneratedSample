@@ -1,14 +1,14 @@
 using System.Web.Mvc;
-using library.Core.Common.Persistence;
-using library.Core.Common.Transactions;
-using library.Core.Domain.Model;
-using library.Core.Domain.Repositories;
-using library.Web.Models;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Transactions;
+using Library.Core.Domain.Model;
+using Library.Core.Domain.Repositories;
+using Library.Web.Models;
 using MvcContrib.Pagination;
 using MvcContrib.Sorting;
 using MvcContrib.UI.Grid;
 
-namespace library.Web.Controllers
+namespace Library.Web.Controllers
 {
     public class AuthorController : AbstractController
     {

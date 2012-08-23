@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
 
-namespace library.Test.Common.Transaction
+namespace Library.Test.Common.Transaction
 {
     public interface IFooRepository
     {

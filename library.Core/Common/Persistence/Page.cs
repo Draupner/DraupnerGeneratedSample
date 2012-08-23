@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace library.Core.Common.Persistence
+namespace Library.Core.Common.Persistence
 {
     public class Page<T>
     {

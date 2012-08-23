@@ -1,7 +1,7 @@
 using FluentNHibernate.Mapping;
-using library.Core.Domain.Model;
+using Library.Core.Domain.Model;
 
-namespace library.Core.Common.NHibernate
+namespace Library.Core.Common.NHibernate
 {
     public class AuthorMap : ClassMap<Author>
     {

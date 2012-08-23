@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using library.Core.Common.Persistence;
-using library.Core.Domain.Model;
-using library.Core.Domain.Repositories;
-using library.Web.Common.AutoMapper;
-using library.Web.Controllers;
-using library.Web.Models;
+using Library.Core.Common.Persistence;
+using Library.Core.Domain.Model;
+using Library.Core.Domain.Repositories;
+using Library.Web.Common.AutoMapper;
+using Library.Web.Controllers;
+using Library.Web.Models;
 using MvcContrib.Pagination;
 using MvcContrib.Sorting;
 using MvcContrib.UI.Grid;
@@ -14,7 +14,7 @@ using Xunit;
 using Ploeh.AutoFixture;
 using Rhino.Mocks;
 
-namespace library.Test.Controllers
+namespace Library.Test.Controllers
 {
     public class AuthorControllerTests
     {

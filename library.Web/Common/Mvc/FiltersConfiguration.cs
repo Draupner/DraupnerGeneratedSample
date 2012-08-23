@@ -1,8 +1,8 @@
 using System.Web.Mvc;
-using library.Web.Common.NHibernate;
-using library.Web.Common.Logging;
+using Library.Web.Common.NHibernate;
+using Library.Web.Common.Logging;
 
-namespace library.Web.Common.Mvc
+namespace Library.Web.Common.Mvc
 {
     public class FiltersConfiguration
     {

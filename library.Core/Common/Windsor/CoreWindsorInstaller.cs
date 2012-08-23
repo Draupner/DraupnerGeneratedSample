@@ -1,14 +1,14 @@
-using library.Core.Repositories;
-using library.Core.Domain.Repositories;
+using Library.Core.Repositories;
+using Library.Core.Domain.Repositories;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using library.Core.Common.NHibernate;
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
 using NHibernate;
 
-namespace library.Core.Common.Windsor
+namespace Library.Core.Common.Windsor
 {
     public class CoreWindsorInstaller : IWindsorInstaller
     {

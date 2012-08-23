@@ -1,9 +1,9 @@
 using System.Web.Mvc;
 using Castle.Windsor;
 using Castle.MicroKernel.Registration;
-using library.Core.Common.Windsor;
+using Library.Core.Common.Windsor;
 
-namespace library.Web.Common.Windsor
+namespace Library.Web.Common.Windsor
 {
     public class WindsorConfiguration
     {

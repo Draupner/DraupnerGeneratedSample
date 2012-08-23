@@ -3,7 +3,7 @@ using System.Web;
 using System.Web.Mvc;
 using Elmah;
 
-namespace library.Web.Common.Logging
+namespace Library.Web.Common.Logging
 {
     public class ElmahHandleErrorAttribute : HandleErrorAttribute
     {

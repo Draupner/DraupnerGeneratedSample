@@ -1,13 +1,13 @@
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using library.Core.Common.NHibernate;
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
 using NHibernate;
 using NHibernate.Context;
 using NHibernate.Tool.hbm2ddl;
 
-namespace library.Test
+namespace Library.Test
 {
     public class PersistenceTest
     {

@@ -1,8 +1,8 @@
-namespace library.Core.Domain.Model
+namespace Library.Core.Domain.Model
 {
-    public class Author
-    {
-        public virtual long Id { get; set; }
-        public virtual string Name { get; set; }
-    }
+  public class Author
+  {
+    public virtual long Id { get; set; }
+    public virtual string Name { get; set; }
+  }
 }

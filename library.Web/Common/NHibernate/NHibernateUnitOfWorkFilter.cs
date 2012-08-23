@@ -1,9 +1,9 @@
 using System.Web.Mvc;
-using library.Core.Common.NHibernate;
+using Library.Core.Common.NHibernate;
 using NHibernate;
 using NHibernate.Context;
 
-namespace library.Web.Common.NHibernate
+namespace Library.Web.Common.NHibernate
 {
     public class NHibernateUnitOfWorkFilter : ActionFilterAttribute
     {

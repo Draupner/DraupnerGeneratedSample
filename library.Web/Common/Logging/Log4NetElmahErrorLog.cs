@@ -9,7 +9,7 @@ using Elmah;
  * Uses instead Log4Net to log the exception and circumvents 
  * the ELMAH logging to file
  */
-namespace library.Web.Common.Logging
+namespace Library.Web.Common.Logging
 {
     public class Log4NetElmahErrorLog : XmlFileErrorLog 
     {

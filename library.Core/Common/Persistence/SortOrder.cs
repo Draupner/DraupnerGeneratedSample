@@ -1,4 +1,4 @@
-namespace library.Core.Common.Persistence
+namespace Library.Core.Common.Persistence
 {
     public enum SortOrder
     {

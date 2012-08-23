@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
-using library.Core.Common.Persistence;
-using library.Core.Domain.Model;
-using library.Web.Common.AutoMapper;
-using library.Web.Models;
+using Library.Core.Common.Persistence;
+using Library.Core.Domain.Model;
+using Library.Web.Common.AutoMapper;
+using Library.Web.Models;
 using MvcContrib.Pagination;
 using Xunit;
 using Ploeh.AutoFixture;
 
-namespace library.Test.Common.AutoMapper
+namespace Library.Test.Common.AutoMapper
 {
     public class LibraryCardAutoMapperTests
     {

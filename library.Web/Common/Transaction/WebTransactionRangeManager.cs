@@ -1,8 +1,8 @@
 using System.Web;
-using library.Core.Common.Persistence;
-using library.Core.Common.Transactions;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Transactions;
 
-namespace library.Web.Common.Transaction
+namespace Library.Web.Common.Transaction
 {
     public class WebTransactionRangeManager : TransactionRangeManager
     {

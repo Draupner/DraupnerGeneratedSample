@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using library.Core.Common.Persistence;
-using library.Core.Domain.Model;
+using Library.Core.Common.Persistence;
+using Library.Core.Domain.Model;
 
-namespace library.Core.Domain.Repositories
+namespace Library.Core.Domain.Repositories
 {
     public interface ILibraryCardRepository
     {

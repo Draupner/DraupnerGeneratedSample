@@ -1,8 +1,8 @@
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
 using NHibernate;
 
-namespace library.Core.Common.Transactions
+namespace Library.Core.Common.Transactions
 {
     public abstract class TransactionRangeManager
     {

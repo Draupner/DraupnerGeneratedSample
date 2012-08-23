@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace library.Web.Common.Mvc
+namespace Library.Web.Common.Mvc
 {
     public class RoutesConfiguration
     {

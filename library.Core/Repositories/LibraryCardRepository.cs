@@ -1,9 +1,9 @@
-using library.Core.Common.Persistence;
-using library.Core.Common.Persistence.NHibernate;
-using library.Core.Domain.Model;
-using library.Core.Domain.Repositories;
+using Library.Core.Common.Persistence;
+using Library.Core.Common.Persistence.NHibernate;
+using Library.Core.Domain.Model;
+using Library.Core.Domain.Repositories;
 
-namespace library.Core.Repositories
+namespace Library.Core.Repositories
 {
     public class LibraryCardRepository : GenericNHibernateRepository<LibraryCard>, ILibraryCardRepository
     {

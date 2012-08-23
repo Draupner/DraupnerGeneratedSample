@@ -1,6 +1,6 @@
 <Configuration>
-	<ProjectName>library</ProjectName>
-	<CoreNameSpace>library.Core</CoreNameSpace>
-	<WebNameSpace>library.Web</WebNameSpace>
-	<TestNameSpace>library.Test</TestNameSpace>
+	<ProjectName>Library</ProjectName>
+	<CoreNameSpace>Library.Core</CoreNameSpace>
+	<WebNameSpace>Library.Web</WebNameSpace>
+	<TestNameSpace>Library.Test</TestNameSpace>
 </Configuration>

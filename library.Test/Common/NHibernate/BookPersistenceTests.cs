@@ -1,9 +1,9 @@
 using FluentNHibernate.Testing;
-using library.Core.Domain.Model;
+using Library.Core.Domain.Model;
 using Ploeh.AutoFixture.Xunit;
 using Xunit.Extensions;
 
-namespace library.Test.Common.NHibernate
+namespace Library.Test.Common.NHibernate
 {
     public class BookPersistenceTests : PersistenceTest
     {

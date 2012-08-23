@@ -2,13 +2,13 @@ using System;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using library.Core.Common.NHibernate;
-using library.Core.Common.Transactions;
+using Library.Core.Common.NHibernate;
+using Library.Core.Common.Transactions;
 using NHibernate;
 using Xunit;
 using Rhino.Mocks;
 
-namespace library.Test.Common.Transaction
+namespace Library.Test.Common.Transaction
 {
     public class TransactionAttributeTests : PersistenceTest, IDisposable
     {

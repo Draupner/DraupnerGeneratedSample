@@ -1,14 +1,14 @@
 using System.Web;
 using System.Web.Mvc;
 using Elmah;
-using library.Core.Common.Logging;
-using library.Core.Common.NHibernate;
-using library.Web.Common.AutoMapper;
-using library.Web.Common.Mvc;
-using library.Web.Common.Transaction;
-using library.Web.Common.Windsor;
+using Library.Core.Common.Logging;
+using Library.Core.Common.NHibernate;
+using Library.Web.Common.AutoMapper;
+using Library.Web.Common.Mvc;
+using Library.Web.Common.Transaction;
+using Library.Web.Common.Windsor;
 
-namespace library.Web
+namespace Library.Web
 {
     public class MvcApplication : System.Web.HttpApplication
     {

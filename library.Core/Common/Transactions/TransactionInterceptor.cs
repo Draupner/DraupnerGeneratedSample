@@ -2,7 +2,7 @@ using System.Linq;
 using System.Reflection;
 using Castle.DynamicProxy;
 
-namespace library.Core.Common.Transactions
+namespace Library.Core.Common.Transactions
 {
     public class TransactionInterceptor : IInterceptor
     {

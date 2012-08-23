@@ -1,9 +1,9 @@
 using System;
-using library.Core.Common.Transactions;
+using Library.Core.Common.Transactions;
 using Xunit;
 using Ploeh.AutoFixture;
 
-namespace library.Test.Common.Transaction
+namespace Library.Test.Common.Transaction
 {
     public class InsideTransactionsTests : PersistenceTest
     {

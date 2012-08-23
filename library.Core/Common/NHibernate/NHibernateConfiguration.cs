@@ -4,7 +4,7 @@ using NHibernate;
 using NHibernate.Context;
 using NHibernate.Tool.hbm2ddl;
 
-namespace library.Core.Common.NHibernate
+namespace Library.Core.Common.NHibernate
 {
     public class NHibernateConfiguration
     {

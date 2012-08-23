@@ -1,7 +1,7 @@
 using System.Threading;
-using library.Core.Common.Persistence;
+using Library.Core.Common.Persistence;
 
-namespace library.Core.Common.Transactions
+namespace Library.Core.Common.Transactions
 {
     public class ThreadLocalTransactionRangeManager : TransactionRangeManager
     {

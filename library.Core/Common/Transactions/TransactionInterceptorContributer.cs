@@ -6,7 +6,7 @@ using Castle.Core;
 using Castle.MicroKernel;
 using Castle.MicroKernel.ModelBuilder;
 
-namespace library.Core.Common.Transactions
+namespace Library.Core.Common.Transactions
 {
     public class TransactionInterceptorContributer : IContributeComponentModelConstruction
     {

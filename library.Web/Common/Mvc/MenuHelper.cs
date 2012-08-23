@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using NHibernate.Linq;
 
-namespace library.Web.Common.Mvc
+namespace Library.Web.Common.Mvc
 {
     public static class MenuHelper
     {

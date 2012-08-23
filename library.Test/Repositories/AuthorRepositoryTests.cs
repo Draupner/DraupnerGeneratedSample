@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
-using library.Core.Common.Persistence;
-using library.Core.Domain.Model;
-using library.Core.Domain.Repositories;
-using library.Core.Repositories;
+using Library.Core.Common.Persistence;
+using Library.Core.Domain.Model;
+using Library.Core.Domain.Repositories;
+using Library.Core.Repositories;
 using Xunit;
 using Ploeh.AutoFixture;
 
-namespace library.Test.Repositories
+namespace Library.Test.Repositories
 {
     public class AuthorRepositoryTests : PersistenceTest
     {

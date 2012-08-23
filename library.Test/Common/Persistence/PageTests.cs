@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using library.Core.Common.Persistence;
+using Library.Core.Common.Persistence;
 using Xunit;
 
-namespace library.Test.Common.Persistence
+namespace Library.Test.Common.Persistence
 {
     public class PageTests
     {

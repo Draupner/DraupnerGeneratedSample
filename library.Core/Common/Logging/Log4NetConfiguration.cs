@@ -1,4 +1,4 @@
-namespace library.Core.Common.Logging 
+namespace Library.Core.Common.Logging 
 {
     public class Log4NetConfiguration 
     {

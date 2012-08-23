@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using AutoMapper;
 
-namespace library.Web.Controllers
+namespace Library.Web.Controllers
 {
     public abstract class AbstractController : Controller
     {

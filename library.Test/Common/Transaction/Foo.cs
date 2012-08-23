@@ -1,4 +1,4 @@
-namespace library.Test.Common.Transaction
+namespace Library.Test.Common.Transaction
 {
     public class Foo
     {
